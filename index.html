@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>webosinterview</title>
+    <link rel="stylesheet" href="styleenglish.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>welcome to webos</h1>
+      </div>
+    </header>
+
+    <p class="line">Here <sub> you </sub> have <sup>everything</sup></p>
+
+    <div>
+      <table>
+        <tr>
+          <th>ice cream 12 options</th>
+          <th>new tesla</th>
+          <th>50K</th>
+        </tr>
+        <tr>
+          <td>chef food</td>
+          <td>social events</td>
+          <td>Surprises</td>
+        </tr>
+      </table>
+    </div>
+
+    <p class="line">
+      Before you start working with us we need information about you
+    </p>
+
+    <p class="start">lets start <span class="span"> ! </span></p>
+
+    <div class="skill">
+      <p>How much time do you spend on the computer per day?</p>
+      <label for="hour">choose</label>
+      <select id="hour">
+        <option value="1">1 hour</option>
+        <option value="2">3-5 hours</option>
+        <option value="3">5-8 hours</option>
+        <option value="4">10 hours or more</option>
+      </select>
+    </div>
+
+    <div class="skill" style="margin-top: 90px">
+      <form>
+        <label for="8200">
+          Do you come from a 8200 military unit? <br /><br />
+          <input type="radio" name="choice-radio" id="8200" required />
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="choice-radio" required />
+          No
+        </label>
+      </form>
+    </div>
+
+    <div class="skill" style="margin-top: 90px">
+      <label for="level "> Your level of creativity</label>
+      <input type="range" name="range-radio" id="level " required />
+    </div>
+
+    <div class="newskill" style="margin-top: 90px">
+      <p>Some personal details about you</p>
+
+      <form class="space">
+        <label for="fn">First name:</label><br />
+        <input type="text" id="fn" name="fn" required /><br />
+        <label for="ln">Last name:</label><br />
+        <input type="text" id="ln" name="ln" required /><br />
+
+        <label for="phone">Phone number:</label><br />
+        <input type="tel" id="phone" name="phone" required /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+        <label for="birthday">birthday:</label><br />
+        <input
+          style="color: rgb(65, 121, 10)"
+          type="date"
+          id="birthday"
+          name="birthday"
+          required
+        />
+      </form>
+    </div>
+
+    <div class="rightbox">
+      Choose the things that are important to you at work
+    </div>
+
+    <div><br /><br /><span>&#11167;</span></div>
+
+    <div class="checkbox">
+      <input type="checkbox" id="money" name="money" />
+      <label class="span" for="money">money</label>
+      <input type="checkbox" id="people" name="people" />
+      <label class="span" for="people">people</label>
+      <input type="checkbox" id="Food" name="Food" />
+      <label class="span" for="Food">Food</label>
+      <input type="checkbox" id="technology" name="money" />
+      <label class="span" for="technology">technology</label>
+      <input type="checkbox" id="location" name="location" />
+      <label class="span" for="location">location</label>
+      <input type="checkbox" id="workspace" name="workspace" />
+      <label class="span" for="workspace">workspace</label>
+    </div>
+    <br /><br />
+
+    <form class="pstyle">
+      <label for="tellus">
+        We're almost done, tell us about yourself in a few words:</label
+      >
+      <textarea
+        required
+        placeholder="Describe yourself here..."
+        id="tellus"
+        name="tellus"
+        maxlength="300"
+        rows="6"
+        cols="40"
+      >
+      </textarea>
+    </form>
+
+    <footer class="button">
+      <p>
+        Thank you ,
+        <input type="submit" value="I finished!" />
+
+        we hope you will continue with us
+      </p>
+    </footer>
+  </body>
+</html>
